@@ -1,7 +1,7 @@
 --Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------
 --Tool Version: Vivado v.2018.1 (lin64) Build 2188600 Wed Apr  4 18:39:19 MDT 2018
---Date        : Thu Nov  5 13:40:40 2020
+--Date        : Thu Nov  5 15:05:18 2020
 --Host        : lx0 running 64-bit SUSE Linux Enterprise Desktop 12 SP4
 --Command     : generate_target Lab2_SoC.bd
 --Design      : Lab2_SoC

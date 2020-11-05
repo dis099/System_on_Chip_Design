@@ -1,0 +1,1 @@
+cmd_/home/diezec/workspace/lab2/task2/chardev.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/diezec/xilinx_linux/scripts/module-common.lds --build-id  -o /home/diezec/workspace/lab2/task2/chardev.ko /home/diezec/workspace/lab2/task2/chardev.o /home/diezec/workspace/lab2/task2/chardev.mod.o ;  true

@@ -1,0 +1,1 @@
+cmd_include/generated/mach-types.h := mkdir -p include/generated/ && awk -f /home/diezec/xilinx_linux/arch/arm/tools/gen-mach-types /home/diezec/xilinx_linux/arch/arm/tools/mach-types > include/generated/mach-types.h || { rm -f include/generated/mach-types.h; /bin/false; }

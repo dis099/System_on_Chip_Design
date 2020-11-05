@@ -1,0 +1,1 @@
+cmd_/home/diezec/workspace/lab2/task1/hello.ko := arm-linux-gnueabihf-ld -EL -r  -T /home/diezec/xilinx_linux/scripts/module-common.lds --build-id  -o /home/diezec/workspace/lab2/task1/hello.ko /home/diezec/workspace/lab2/task1/hello.o /home/diezec/workspace/lab2/task1/hello.mod.o ;  true

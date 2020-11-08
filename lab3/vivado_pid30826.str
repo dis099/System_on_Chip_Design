@@ -1,0 +1,725 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:39:19 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 30826
+License: Customer
+
+Current time: 	Sat Nov 07 20:31:46 EET 2020
+Time zone: 	Eastern European Time (Europe/Tallinn)
+
+OS: SUSE Linux Enterprise Desktop 12 (x86_64)
+OS Version: 4.12.14-95.45-default
+OS Architecture: amd64
+Available processors (cores): 48
+
+Display: localhost:13.0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 82 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	/cad/x_18/Vivado/2018.1/tps/lnx64/jre
+Java executable location: 	/cad/x_18/Vivado/2018.1/tps/lnx64/jre/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	diezec
+User home directory: /home/diezec
+User working directory: /home/diezec/workspace/lab3
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /cad/x_18/Vivado
+HDI_APPROOT: /cad/x_18/Vivado/2018.1
+RDI_DATADIR: /cad/x_18/Vivado/2018.1/data
+RDI_BINDIR: /cad/x_18/Vivado/2018.1/bin
+
+Vivado preferences file location: /home/diezec/.Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: /home/diezec/.Xilinx/Vivado/2018.1/
+Vivado layouts directory: /home/diezec/.Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	/cad/x_18/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	/home/diezec/workspace/lab3/vivado.log
+Vivado journal file location: 	/home/diezec/workspace/lab3/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-30826-lx0
+
+GUI allocated memory:	163 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 1,103 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// [GUI Memory]: 61 MB (+61722kb) [00:00:06]
+// [Engine Memory]: 1,006 MB (+902887kb) [00:00:06]
+selectButton(PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, "Create Project"); // x (w, ch)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// [GUI Memory]: 74 MB (+10388kb) [00:00:06]
+// [Engine Memory]: 1,058 MB (+2498kb) [00:00:09]
+// [GUI Memory]: 82 MB (+3792kb) [00:00:09]
+// f (ch): New Project: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,108 MB. GUI used memory: 38 MB. Current time: 11/7/20 8:31:46 PM EET
+selectButton("NEXT", "Next >"); // JButton (j, f)
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "lab3"); // X (Q, f)
+// Elapsed time: 12 seconds
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // q (ai, f)
+// [Engine Memory]: 1,111 MB (+215kb) [00:00:37]
+setFolderChooser("/home/diezec/workspace/lab3/vivado");
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectTab(PAResourceOtoP.PartChooser_TABBED_PANE, (HResource) null, "Boards", 1); // i (T, f)
+// [GUI Memory]: 104 MB (+19151kb) [00:00:51]
+selectTable(PAResourceAtoD.BoardChooser_BOARD_TABLE, "ZedBoard Zynq Evaluation and Development Kit ; ZedBoard Zynq Evaluation and Development Kit ; em.avnet.com ; 1.4 ; xc7z020clg484-1 ; 484 ; d ; 200 ; 53200 ; 106400 ; 140 ; 0 ; 220 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 4 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 0, "ZedBoard Zynq Evaluation and Development Kit", 0); // d (O, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// bv (f):  Create Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 124 MB (+15301kb) [00:00:59]
+// Tcl Message: create_project lab3 /home/diezec/workspace/lab3/vivado -part xc7z020clg484-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/x_18/Vivado/2018.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,159 MB. GUI used memory: 53 MB. Current time: 11/7/20 8:32:40 PM EET
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 6313.996 ; gain = 42.961 ; free physical = 50238 ; free virtual = 70728 
+// TclEventType: BOARD_MODIFIED
+// Tcl Message: set_property board_part em.avnet.com:zed:part0:1.4 [current_project] 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property target_language VHDL [current_project] 
+// Elapsed time: 10 seconds
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 60 seconds
+// [Engine Memory]: 1,167 MB (+235kb) [00:01:07]
+dismissDialog("Create Project"); // bv (f)
+dismissDialog("New Project"); // f (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD, "Create and Package New IP..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER_WIZARD
+// Q (ch): Create and Package New IP: addNotify
+// Elapsed time: 14 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_PACKAGE_BLOCK_DESIGN_FROM_CURRENT, "Package a block design from the current project. Choose a block design as the source for creating a new IP Definition."); // b (a, Q)
+// Elapsed time: 24 seconds
+selectRadioButton(PAResourceItoN.NewIpWizard_CREATE_NEW_AXI4_IP_CREATE_AXI4, "Create a new AXI4 peripheral. Create an AXI4 IP, driver, software test application, IP Integrator AXI4 VIP simulation and debug demonstration design."); // b (a, Q)
+// Elapsed time: 13 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// Elapsed time: 137 seconds
+setText(PAResourceItoN.NewIpWizard_NAME_MYIP, "MYMULTIPLIER"); // X (Q)
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+// Elapsed time: 78 seconds
+selectButton("NEXT", "Next >"); // JButton (j, Q)
+selectRadioButton(PAResourceItoN.NewIpWizard_EDIT_IP, "Edit IP"); // a (Q)
+selectButton("FINISH", "Finish"); // JButton (j, Q)
+// 'q' command handler elapsed time: 286 seconds
+dismissDialog("Create and Package New IP"); // Q (ch)
+// TclEventType: LOAD_FEATURE
+// Tcl Message: create_peripheral ttu.ee user MYMULTIPLIER 1.0 -dir /home/diezec/workspace/lab3/ip_repo 
+// Tcl Message: add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core ttu.ee:user:MYMULTIPLIER:1.0] 
+// TclEventType: PACKAGER_OBJECT_ADD
+// Tcl Message: generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core ttu.ee:user:MYMULTIPLIER:1.0] 
+// Tcl Message: write_peripheral [ipx::find_open_core ttu.ee:user:MYMULTIPLIER:1.0] 
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: set_property  ip_repo_paths  /home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0 [current_project] 
+// TclEventType: CREATE_IP_CATALOG
+// bv (ch):  Create Peripheral IP : addNotify
+// Tcl Message: update_ip_catalog -rebuild 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0'. 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: ipx::edit_ip_in_project -upgrade true -name edit_MYMULTIPLIER_v1_0 -directory /home/diezec/workspace/lab3/ip_repo /home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/component.xml 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/x_18/Vivado/2018.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0'. INFO: [IP_Flow 19-795] Syncing license key meta-data 
+// TclEventType: PACKAGER_CURRENT_CORE
+// Run Command: PAResourceCommand.PACommandNames_IP_PACKAGER
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: ipx::edit_ip_in_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 6352.824 ; gain = 16.309 ; free physical = 50130 ; free virtual = 70620 
+dismissDialog("Create Peripheral IP"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,237 MB (+12246kb) [00:06:23]
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,245 MB. GUI used memory: 69 MB. Current time: 11/7/20 8:38:00 PM EET
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 1068 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_ADD_SOURCES, "Add Sources..."); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+// Elapsed time: 10 seconds
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+// Elapsed time: 35 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "multiplier"); // X (Q, F)
+selectButton(PAResourceAtoD.CreateSrcFileDialog_SPECIFY_FILE_DIRECTORY, (String) null); // q (ai, F)
+// Elapsed time: 34 seconds
+setFolderChooser("/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0");
+// Elapsed time: 35 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_SPECIFY_FILE_DIRECTORY, "/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/hdl"); // aj (ai, F)
+selectButton(PAResourceAtoD.CreateSrcFileDialog_SPECIFY_FILE_DIRECTORY, (String) null); // q (ai, F)
+// Elapsed time: 10 seconds
+setFolderChooser("/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/hdl");
+// Elapsed time: 11 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+// Elapsed time: 29 seconds
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 175 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open /home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/hdl/multiplier.vhd w ] 
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// bv (ch):  Add Sources  : addNotify
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files /home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/hdl/multiplier.vhd 
+// TclEventType: FILE_SET_CHANGE
+// I (ch): Define Module: addNotify
+dismissDialog("Add Sources"); // bv (ch)
+// Elapsed time: 189 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (I)
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,270 MB. GUI used memory: 69 MB. Current time: 11/7/20 9:02:05 PM EET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 30 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MYMULTIPLIER_v1_0(arch_imp) (MYMULTIPLIER_v1_0.vhd)]", 2, true); // B (D, ch) - Node
+// [Engine Memory]: 1,300 MB (+868kb) [00:30:58]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MYMULTIPLIER_v1_0(arch_imp) (MYMULTIPLIER_v1_0.vhd)]", 2, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 839, 45); // cd (w, ch)
+// [GUI Memory]: 132 MB (+1910kb) [00:31:53]
+// [GUI Memory]: 141 MB (+2488kb) [00:32:03]
+// Elapsed time: 81 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files]", 1); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, multiplier.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, multiplier.vhd]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Non-module Files, multiplier.vhd]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("multiplier.vhd", 220, 93); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,318 MB. GUI used memory: 76 MB. Current time: 11/7/20 9:04:10 PM EET
+selectCodeEditor("multiplier.vhd", 738, 74); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 738, 74, false, false, false, false, true); // cd (w, ch) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,318 MB. GUI used memory: 73 MB. Current time: 11/7/20 9:34:10 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,319 MB. GUI used memory: 71 MB. Current time: 11/7/20 10:04:10 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,319 MB. GUI used memory: 71 MB. Current time: 11/7/20 10:34:10 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,319 MB. GUI used memory: 72 MB. Current time: 11/7/20 11:04:10 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,319 MB. GUI used memory: 71 MB. Current time: 11/7/20 11:34:10 PM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,319 MB. GUI used memory: 71 MB. Current time: 11/8/20 12:04:10 AM EET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,319 MB. GUI used memory: 71 MB. Current time: 11/8/20 12:34:10 AM EET
+// Elapsed time: 13515 seconds
+selectCodeEditor("multiplier.vhd", 334, 236); // cd (w, ch)
+// Elapsed time: 99 seconds
+selectCodeEditor("multiplier.vhd", 114, 175); // cd (w, ch)
+typeControlKey((HResource) null, "multiplier.vhd", 'v'); // cd (w, ch)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("multiplier.vhd", 168, 158); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,344 MB. GUI used memory: 73 MB. Current time: 11/8/20 12:51:26 AM EET
+selectCodeEditor("multiplier.vhd", 168, 185); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 170, 173); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 119, 160); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 116, 184); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 118, 154); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 120, 118); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - MYMULTIPLIER", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier.vhd", 3); // k (j, ch)
+selectCodeEditor("multiplier.vhd", 397, 98); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 341, 73); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 336, 60); // cd (w, ch)
+// Elapsed time: 192 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // B (E, ch)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+selectCodeEditor("multiplier.vhd", 448, 224); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 535, 138); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 535, 88); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 545, 65); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 391, 159); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 363, 198); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 380, 179); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 377, 181); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 369, 193); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 218, 263); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 208, 295); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 212, 285); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 288, 369); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 275, 407); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 278, 476); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 285, 464); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 251, 496); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 287, 392); // cd (w, ch)
+// Elapsed time: 271 seconds
+selectCodeEditor("multiplier.vhd", 328, 285); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 300, 150); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,345 MB. GUI used memory: 73 MB. Current time: 11/8/20 1:21:25 AM EET
+// Elapsed time: 2083 seconds
+selectCodeEditor("multiplier.vhd", 300, 150); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 113, 373); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("multiplier.vhd", 227, 215); // cd (w, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // U (q, ch)
+selectCodeEditor("multiplier.vhd", 605, 75); // cd (w, ch)
+selectCodeEditor("multiplier.vhd", 411, 175); // cd (w, ch)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 97 seconds
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+selectCodeEditor("multiplier.vhd", 511, 270); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (ch)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [Engine Memory]: 1,374 MB (+9131kb) [05:06:19]
+// C (ch): Settings: addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,378 MB. GUI used memory: 94 MB. Current time: 11/8/20 1:37:57 AM EET
+// Elapsed time: 11 seconds
+expandTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 6); // M (C)
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor]", 6, true); // M (C) - Node
+selectTree(PAResourceQtoS.SettingsDialog_OPTIONS_TREE, "[optionsRoot, Text Editor, Fonts and Colors]", 10, false); // M (C)
+// Elapsed time: 22 seconds
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (C)
+// bv (ch):  Change Settings : addNotify
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Change Settings"); // bv (ch)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog 
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+// bv (ch):  Change Settings : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 1,478 MB. GUI used memory: 87 MB. Current time: 11/8/20 1:38:46 AM EET
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Change Settings"); // bv (ch)
+dismissDialog("Settings"); // C (ch)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// bv (ch):  Refresh All IP Repositories : addNotify
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// [Engine Memory]: 1,478 MB (+37702kb) [05:07:10]
+// Tcl Message: update_ip_catalog 
+dismissDialog("Refresh All IP Repositories"); // bv (ch)
+// Elapsed time: 55 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (ch)
+selectMenuItem(RDIResourceCommand.RDICommands_SETTINGS, "Settings..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Run Command: RDIResourceCommand.RDICommands_SETTINGS
+// C (ch): Settings: addNotify
+selectButton(RDIResource.BaseDialog_APPLY, "Apply"); // a (C)
+// bv (ch):  Change Settings : addNotify
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Change Settings"); // bv (ch)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// Tcl Message: update_ip_catalog 
+// [GUI Memory]: 159 MB (+11867kb) [05:08:19]
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (C)
+// [GUI Memory]: 175 MB (+8331kb) [05:08:19]
+// [GUI Memory]: 186 MB (+2011kb) [05:08:19]
+// bv (ch):  Change Settings : addNotify
+// [GUI Memory]: 200 MB (+4704kb) [05:08:20]
+// TclEventType: CREATE_IP_CATALOG
+dismissDialog("Change Settings"); // bv (ch)
+dismissDialog("Settings"); // C (ch)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// [GUI Memory]: 214 MB (+4301kb) [05:08:21]
+// Tcl Message: update_ip_catalog 
+selectCodeEditor("multiplier.vhd", 549, 357); // cd (w, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("multiplier.vhd", 580, 226); // cd (w, ch)
+// Elapsed time: 33 seconds
+selectCodeEditor("multiplier.vhd", 590, 262); // cd (w, ch)
+// Elapsed time: 134 seconds
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aw
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MYMULTIPLIER_v1_0(arch_imp) (MYMULTIPLIER_v1_0.vhd), MYMULTIPLIER_v1_0_S00_AXI_inst : MYMULTIPLIER_v1_0_S00_AXI(arch_imp) (MYMULTIPLIER_v1_0_S00_AXI.vhd)]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MYMULTIPLIER_v1_0(arch_imp) (MYMULTIPLIER_v1_0.vhd), MYMULTIPLIER_v1_0_S00_AXI_inst : MYMULTIPLIER_v1_0_S00_AXI(arch_imp) (MYMULTIPLIER_v1_0_S00_AXI.vhd)]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 48 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 59, 114); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 109, 84); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 116, 77); // cd (w, ch)
+// Elapsed time: 34 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 85, 216); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 162, 98); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 128, 136); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 83, 172); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 102, 115); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 67, 242); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 81, 239); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 85, 264); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 85, 296); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 101, 264); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 116, 238); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 94, 281); // cd (w, ch)
+// Elapsed time: 131 seconds
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MYMULTIPLIER_v1_0(arch_imp) (MYMULTIPLIER_v1_0.vhd), MYMULTIPLIER_v1_0_S00_AXI_inst : MYMULTIPLIER_v1_0_S00_AXI(arch_imp) (MYMULTIPLIER_v1_0_S00_AXI.vhd)]", 2, false); // B (D, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier.vhd", 3); // k (j, ch)
+selectCodeEditor("multiplier.vhd", 240, 176); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MULTIPLIERENTITY(RTL) (multiplier.vhd)]", 3, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MULTIPLIERENTITY(RTL) (multiplier.vhd)]", 3, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 67 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 4); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0.vhd", 2); // k (j, ch)
+// Elapsed time: 13 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// HMemoryUtils.trashcanNow. Engine heap size: 1,498 MB. GUI used memory: 90 MB. Current time: 11/8/20 1:50:16 AM EET
+selectCodeEditor("multiplier.vhd", 741, 241); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - MYMULTIPLIER", 1); // k (j, ch)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 3); // k (j, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 573, 268); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier.vhd", 2); // k (j, ch)
+selectCodeEditor("multiplier.vhd", 166, 102); // cd (w, ch)
+typeControlKey((HResource) null, "multiplier.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 3); // k (j, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 395, 102); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 407, 296); // cd (w, ch)
+// Elapsed time: 24 seconds
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 84 seconds
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'v'); // cd (w, ch)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 93 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 696, 350); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 474, 375); // cd (w, ch)
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 227 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 525, 219); // cd (w, ch)
+// Elapsed time: 178 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "S_AXI_ACLK"); // l (aP, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 533, 227); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 533, 227, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 217, 202); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 612, 215); // cd (w, ch)
+// Elapsed time: 205 seconds
+unMinimizeFrame(RDIResource.RDIViews_PROPERTIES, "Properties"); // aw
+selectButton(PAResourceOtoP.PlanAheadTab_SHOW_FLOW_NAVIGATOR, "Flow Navigator"); // z (L, ch)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MYMULTIPLIER_v1_0(arch_imp) (MYMULTIPLIER_v1_0.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, MYMULTIPLIER_v1_0(arch_imp) (MYMULTIPLIER_v1_0.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 391, 119); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 3); // k (j, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 543, 46); // cd (w, ch)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0.vhd", 4); // k (j, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 595, 108); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,533 MB. GUI used memory: 91 MB. Current time: 11/8/20 2:06:31 AM EET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 558, 139); // cd (w, ch)
+// Elapsed time: 86 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 578, 316); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 674, 354); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 640, 416); // cd (w, ch)
+// Elapsed time: 145 seconds
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 41 seconds
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 41 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 268, 303); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 268, 303); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 268, 303, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 268, 303, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 267, 411); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 267, 411, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 267, 411, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 486, 401); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 486, 401, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 486, 401, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 503, 439); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 40, 344); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 707, 425); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 718, 425); // cd (w, ch)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 1,557 MB (+5463kb) [05:41:18]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 1,565 MB. GUI used memory: 91 MB. Current time: 11/8/20 2:12:56 AM EET
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 761, 404); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 265, 292); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 265, 292); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 265, 292, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 508, 279); // cd (w, ch)
+// Elapsed time: 50 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "size_of_multiplier_input"); // l (aP, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 212, 282); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 212, 282, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 63 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 216, 153); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 226, 153); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 226, 153, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 149, 156); // cd (w, ch)
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 278, 340); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 278, 340, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 311, 384); // cd (w, ch)
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 461, 239); // cd (w, ch)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 67 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 1091, 303); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 1024, 227); // cd (w, ch)
+// Elapsed time: 294 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 683, 64); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 3); // k (j, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 662, 199); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 217, 290); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 217, 290, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 21 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 773, 263); // cd (w, ch)
+// Elapsed time: 46 seconds
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 73 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 646, 94); // cd (w, ch)
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 152, 194); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 152, 194, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 18 seconds
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 535, 409); // cd (w, ch)
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'v'); // cd (w, ch)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 1,591 MB. GUI used memory: 91 MB. Current time: 11/8/20 2:27:21 AM EET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 328, 287); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 550, 306); // cd (w, ch)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 46 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0.vhd", 4); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 744, 189); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,615 MB. GUI used memory: 90 MB. Current time: 11/8/20 2:28:16 AM EET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier.vhd", 2); // k (j, ch)
+selectCodeEditor("multiplier.vhd", 731, 189); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - MYMULTIPLIER", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 3); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0.vhd", 4); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 3); // k (j, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 656, 163); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 827, 186); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 301, 97); // cd (w, ch)
+// Elapsed time: 99 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 359, 185); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 359, 185, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "MYMULTIPLIER_v1_0_S00_AXI.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 292, 70); // cd (w, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 371, 83); // cd (w, ch)
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 129 seconds
+selectCodeEditor("MYMULTIPLIER_v1_0_S00_AXI.vhd", 556, 95); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "MYMULTIPLIER_v1_0.vhd", 4); // k (j, ch)
+selectCodeEditor("MYMULTIPLIER_v1_0.vhd", 667, 80); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "multiplier.vhd", 2); // k (j, ch)
+selectCodeEditor("multiplier.vhd", 425, 52); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package IP - MYMULTIPLIER", 1); // k (j, ch)
+// Elapsed time: 20 seconds
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "File Groups", 2); // an (O, ch)
+// Elapsed time: 19 seconds
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from File Groups Wizard"); // h (M, ch)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes files [ipx::current_core] 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Customization Parameters", 3); // an (O, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,635 MB. GUI used memory: 94 MB. Current time: 11/8/20 2:33:51 AM EET
+selectButton(PAResourceItoN.MessageBanner_CHANGES_DETECTED_IN_VIVADO_PROJECT_THAT, "Merge changes from Customization Parameters Wizard"); // h (M, ch)
+// TclEventType: PACKAGER_COMPONENT_RESET
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// Tcl Message: ipx::merge_project_changes hdl_parameters [ipx::current_core] 
+// Tcl Message: INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'. 
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+// [Engine Memory]: 1,635 MB (+48kb) [06:02:18]
+// Elapsed time: 30 seconds
+expandTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, "Hidden Parameters ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 5); // M (O, ch)
+// Elapsed time: 10 seconds
+selectTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, "size_of_multiplier_input ;  ; Size Of Multiplier Input ; 16 ; 0 ; long ; default ;  ;  ;  ; ", 6, "size_of_multiplier_input", 0, false); // M (O, ch)
+expandTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, "size_of_multiplier_input ;  ; Size Of Multiplier Input ; 16 ; 0 ; long ; default ;  ;  ;  ; ", 6); // M (O, ch)
+selectTreeTable(PAResourceOtoP.ParameterFacetTable_PARAMETER_FACET_TABLE, "size_of_multiplier_input ;  ; Size Of Multiplier Input ; 16 ; 0 ; long ; default ;  ;  ;  ; ", 6, "size_of_multiplier_input", 0, false, false, false, false, false, true); // M (O, ch) - Double Click
+// W (ch): Edit IP Parameter: addNotify
+selectCheckBox(PAResourceEtoH.EditParameterDialog_VISIBLE_IN_CUSTOMIZATION_GUI, "Visible in Customization GUI", true); // g (Q, W): TRUE
+// Elapsed time: 14 seconds
+selectCheckBox(PAResourceEtoH.EditParameterDialog_SPECIFY_RANGE, "Specify Range", true); // g (C, W): TRUE
+selectComboBox(PAResourceEtoH.EditParameterDialog_RANGE_TYPE, "Range of integers", 1); // e (Q, W)
+setText(PAResourceEtoH.EditParameterDialog_MINIMUM, "2"); // X (Q, W)
+setText(PAResourceEtoH.EditParameterDialog_MINIMUM, "16"); // X (Q, W)
+// Elapsed time: 35 seconds
+setText(PAResourceEtoH.EditParameterDialog_SHOWS_HOW_PARAMETER_WOULD_APPEAR_IN, "Not Applicable"); // X (Q, W)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (W)
+// TclEventType: PACKAGER_OBJECT_CHANGE
+// TclEventType: IPGUI_UPDATE_GUI_ELEMENT
+// W (ch): Edit IP Parameter: addNotify
+// Tcl Message: set_property value_validation_type range_long [ipx::get_user_parameters size_of_multiplier_input -of_objects [ipx::current_core]] 
+// Tcl Message: set_property value_validation_range_minimum 2 [ipx::get_user_parameters size_of_multiplier_input -of_objects [ipx::current_core]] 
+// Tcl Message: set_property value_validation_range_maximum 16 [ipx::get_user_parameters size_of_multiplier_input -of_objects [ipx::current_core]] 
+// Tcl Message: ipgui::add_param -name {size_of_multiplier_input} -component [ipx::current_core] -display_name {Size Of Multiplier Input} -show_label {true} -show_range {true} -widget {} 
+dismissDialog("Edit IP Parameter"); // W (ch)
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_MESSAGE_UPDATE
+selectList(PAResourceOtoP.PackagerStepsPanel_PACKAGER_STEPS_LIST, "Ports and Interfaces", 4); // an (O, ch)
+// Elapsed time: 14 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "multiplier_rdy_irq_out ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 2, "multiplier_rdy_irq_out", 0, false); // M (O, ch)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// Elapsed time: 14 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1, (String) null, 1, true); // M (O, ch) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "Clock and Reset Signals ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 1, (String) null, 1, true); // M (O, ch) - Node
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "multiplier_rdy_irq_out ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 2, (String) null, 1, false); // M (O, ch)
+expandTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "multiplier_rdy_irq_out ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 2); // M (O, ch)
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "multiplier_rdy_irq_out ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 2, (String) null, 1, false, false, false, false, false, true); // M (O, ch) - Double Click
+// af (ch): Edit Port: addNotify
+dismissDialog("Edit Port"); // af (ch)
+// Elapsed time: 11 seconds
+selectTreeTable(PAResourceOtoP.PortAndInterfaceFacetTable_PORT_AND_INTERFACE_FACET_TABLE, "multiplier_rdy_irq_out ;  ;  ;  ;  ; ref ; out ;  ;  ;  ;  ;  ; std_logic", 2, "multiplier_rdy_irq_out", 0, false, false, false, false, true, false); // M (O, ch) - Popup Trigger
+selectMenu(PAResourceOtoP.PortAndInterfaceFacetTable_AUTO_INFER_SINGLE_BIT_INTERFACE, "Auto Infer Single Bit Interface"); // Z (ai, ch)
+selectMenu(PAResourceOtoP.PortAndInterfaceFacetTable_AUTO_INFER_SINGLE_BIT_INTERFACE, "Auto Infer Single Bit Interface"); // Z (ai, ch)

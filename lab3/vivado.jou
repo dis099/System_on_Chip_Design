@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Nov  8 02:37:57 2020
+# Process ID: 35441
+# Current directory: /home/diezec/workspace/lab3
+# Command line: vivado
+# Log file: /home/diezec/workspace/lab3/vivado.log
+# Journal file: /home/diezec/workspace/lab3/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/diezec/workspace/lab3/vivado/lab3.xpr
+close_project
+open_project /home/diezec/workspace/lab3/ip_repo/edit_MYMULTIPLIER_v1_0.xpr
+update_compile_order -fileset sources_1

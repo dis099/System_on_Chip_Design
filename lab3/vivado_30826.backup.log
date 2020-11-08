@@ -1,0 +1,57 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:39:19 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sat Nov  7 20:31:23 2020
+# Process ID: 30826
+# Current directory: /home/diezec/workspace/lab3
+# Command line: vivado
+# Log file: /home/diezec/workspace/lab3/vivado.log
+# Journal file: /home/diezec/workspace/lab3/vivado.jou
+#-----------------------------------------------------------
+start_gui
+create_project lab3 /home/diezec/workspace/lab3/vivado -part xc7z020clg484-1
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/x_18/Vivado/2018.1/data/ip'.
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:08 . Memory (MB): peak = 6313.996 ; gain = 42.961 ; free physical = 50238 ; free virtual = 70728
+set_property board_part em.avnet.com:zed:part0:1.4 [current_project]
+set_property target_language VHDL [current_project]
+create_peripheral ttu.ee user MYMULTIPLIER 1.0 -dir /home/diezec/workspace/lab3/ip_repo
+add_peripheral_interface S00_AXI -interface_mode slave -axi_type lite [ipx::find_open_core ttu.ee:user:MYMULTIPLIER:1.0]
+generate_peripheral -driver -bfm_example_design -debug_hw_example_design [ipx::find_open_core ttu.ee:user:MYMULTIPLIER:1.0]
+write_peripheral [ipx::find_open_core ttu.ee:user:MYMULTIPLIER:1.0]
+set_property  ip_repo_paths  /home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0 [current_project]
+update_ip_catalog -rebuild
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0'.
+ipx::edit_ip_in_project -upgrade true -name edit_MYMULTIPLIER_v1_0 -directory /home/diezec/workspace/lab3/ip_repo /home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/component.xml
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/cad/x_18/Vivado/2018.1/data/ip'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0'.
+INFO: [IP_Flow 19-795] Syncing license key meta-data
+ipx::edit_ip_in_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:05 . Memory (MB): peak = 6352.824 ; gain = 16.309 ; free physical = 50130 ; free virtual = 70620
+update_compile_order -fileset sources_1
+close [ open /home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/hdl/multiplier.vhd w ]
+add_files /home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/hdl/multiplier.vhd
+update_compile_order -fileset sources_1
+update_ip_catalog
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/hdl/MYMULTIPLIER_v1_0.vhd:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/hdl/multiplier.vhd:]
+update_ip_catalog
+update_ip_catalog
+update_ip_catalog
+update_compile_order -fileset sources_1
+ipx::merge_project_changes files [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file '/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/component.xml' ignored by IP packager.
+ipx::merge_project_changes hdl_parameters [ipx::current_core]
+WARNING: [IP_Flow 19-5226] Project source file '/home/diezec/workspace/lab3/ip_repo/MYMULTIPLIER_1.0/component.xml' ignored by IP packager.
+INFO: [IP_Flow 19-3166] Bus Interface 'S00_AXI': References existing memory map 'S00_AXI'.
+set_property value_validation_type range_long [ipx::get_user_parameters size_of_multiplier_input -of_objects [ipx::current_core]]
+set_property value_validation_range_minimum 2 [ipx::get_user_parameters size_of_multiplier_input -of_objects [ipx::current_core]]
+set_property value_validation_range_maximum 16 [ipx::get_user_parameters size_of_multiplier_input -of_objects [ipx::current_core]]
+ipgui::add_param -name {size_of_multiplier_input} -component [ipx::current_core] -display_name {Size Of Multiplier Input} -show_label {true} -show_range {true} -widget {}
+WARNING: [IP_Flow 19-4067] Ignoring invalid widget type specified .Providing a default widget
+ipx::infer_bus_interface multiplier_rdy_irq_out xilinx.com:signal:interrupt_rtl:1.0 [ipx::current_core]
